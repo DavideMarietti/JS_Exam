@@ -51,6 +51,7 @@ console.log('Alan: ', Alan.currentCollection);
 console.log('Max: ', Max.currentCollection);
 */
 
+
 Ada.takeBack(item2);
 Alan.takeBack(item3);
 Alan.takeBack(item4);
@@ -70,14 +71,19 @@ console.log('Alan: ', Alan);
 console.log('Max: ', Max);
 */
 
+
+
 /*
+console.log('Ada current collection (Motore Analitico): ', Ada.currentCollection);
+console.log('Alan current collection (Marchingenio, Biro, Lettera 22, Pellicola Fotografica: ', Alan.currentCollection);
 console.log('Ada own collection (marchingegno, motore analitico): ', Ada.ownCollection);
 console.log('Alan received on load items (marchingegno): ', Alan.onLoanCollection);
 console.log('Ada onLoan items (marchingegno): ', Ada.onLoanItems);
-console.log('Alan available items (biro, lettera 33): ', Alan.availableItems);
+console.log('Alan available items (biro, lettera 22): ', Alan.availableItems);
 console.log('Alan private items(pellicola fotografica): ', Alan.privateItems);
 */
 
+
 // Get info about a User give its id
-console.dir(User.getUser(1), {depth: 3});
-console.dir(User.getAllUsers(), {depth: 3});
+//console.dir(User.getUser(1), {depth: 3});
+//console.dir(User.getAllUsers(), {depth: 3});

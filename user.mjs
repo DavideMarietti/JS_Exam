@@ -73,9 +73,8 @@ export class User {
     // Calculated and Read-only attributes
     //________________________________________________________________________________________________________________//
 
-    // Return an array containing ALL the items currently collected by the collector (owned and received on loan)
     get currentCollection() {
-        return this._collection;
+        return this._collection.filter((item) => (item.holder === this));
     }
 }
 
@@ -93,63 +92,27 @@ export class Collector extends User {
 
     // Return an array containing only the items OWNED by the collector
     get ownCollection() {
-        let ownCollection = [];
-        for (let item of this._collection) {
-            if (item.owner === this) { // check if the CollectionItem is owned by the collector
-                ownCollection.push(item);
-            }
-        }
-
-        return ownCollection;
+        return this._collection.filter((item) => (item.owner === this));
     }
 
     // Return an array containing only the items that are currently received on LOAN
     get onLoanCollection() {
-        let onLoanCollection = [];
-        for (let item of this._collection) {
-            if (item.owner !== this && item.holder === this) { // check if the CollectionItem is given on loan
-                onLoanCollection.push(item);
-            }
-        }
-
-        return onLoanCollection;
+        return this._collection.filter((item) => (item.owner !== this && item.holder === this));
     }
 
     // Return the collector's items that are currently onLoan to other users
     get onLoanItems() {
-        let onLoanItems = [];
-        for (let item of this._collection) {
-            if (item.owner === this && item.holder !== item.owner) { // check if the CollectionItem is available for a loan
-                onLoanItems.push(item);
-            }
-        }
-
-        return onLoanItems;
+        return this._collection.filter((item) => (item.holder !== item.owner));
     }
 
     // Return only the collector's items that are available for a loan
     get availableItems() {
-        let availableItems = [];
-        for (let item of this._collection) {
-            // check if the CollectionItem is available for a loan
-            if (item.owner === this && item.holder === this && item.available === true) {
-                availableItems.push(item);
-            }
-        }
-
-        return availableItems;
+        return this._collection.filter((item) => (!item.onLoan && item.available === true));
     }
 
     // Return only the collector's items that are not available for a loan
     get privateItems() {
-        let privateItems = [];
-        for (let item of this._collection) {
-            if (item.owner === this && item.available === false) { // check if the CollectionItem is available for a loan
-                privateItems.push(item);
-            }
-        }
-
-        return privateItems;
+        return this._collection.filter((item) => (item.owner === this && item.available === false));
     }
 
 
@@ -165,51 +128,45 @@ export class Collector extends User {
 
     // Give a Collectable, if present in the collection and owned by the collector it is removed
     remove(collectable) {
-        let pos = -1;
-        for (let i = 0; i < this._collection.length && pos < 0; i++) {
-            if (this._collection[i].collectable.identifier === collectable.identifier && this._collection[i].collectable.owner == this) {
+        const indexRemoved = this._collection.findIndex((item) => (item.collectable.identifier === collectable.identifier && item.owner === this))
 
-                // If the CollectableItem is on loan, it must be taken back first
-                if (collectable.onLoan) {
-                    this.takeBack(collectable);
-                }
-
-                pos = i;
+        if (indexRemoved !== undefined) {
+            // If the CollectableItem is on loan, it must be taken back first
+            if (collectable.onLoan) {
+                this.takeBack(collectable);
             }
+            this._collection.splice(indexRemoved, 1);
         }
-        if (pos >= 0) this._collection.splice(pos, 1);
     }
 
     // Given a Collectable, if present and available, it is loan to a given Collector -> added to the Collector's collection
     // Note: during the loan, the CollectionItem is present in two collections (the holder's one and the owner's one)
     loan(collectable, collector) {
-        for (let item of this._collection) {
-            if (item.collectable === collectable && item.available && !item.onLoan) {
+        // Closure
+        const criteria = (item) => (item.collectable === collectable && item.available && !item.onLoan)
 
-                item.holder = collector; // Loan the CollectableItem to a collector
-                collector._collection.push(item); // Add the CollectableItem to the collector's collection
+        const itemFound = this._collection.find(criteria);
 
-                break;
-            }
+        if (itemFound !== undefined) {
+            itemFound.holder = collector; // Loan the CollectableItem to a collector
+            collector._collection.push(itemFound); // Add the CollectableItem to the collector's collection
         }
     }
 
+
     // Given a Collectable, if present and on loan it is given back to the owner and removed from the collection of the holder
     takeBack(collectable) {
-        for (let item of this._collection) {
-            // check who is the owner and if the Collectable is on loan
-            if (item.collectable === collectable && item.owner === this && item.onLoan) {
+        // Check who is the owner and if the Collectable is on loan
+        const item = this._collection.find((item) => (item.collectable === collectable && item.owner === this && item.onLoan));
 
-                // Remove the Collectable from the collection of the holder
-                const holder = item.holder;
-                const pos = holder._collection.indexOf(item);
-                if (pos >= 0) holder._collection.splice(pos, 1);
+        if (item !== undefined) {
+            // Remove the Collectable from the collection of the holder
+            const holder = item.holder;
+            const pos = holder._collection.indexOf(item);
+            if (pos >= 0) holder._collection.splice(pos, 1);
 
-                // The holder is again the item's owner
-                item.holder = this;
-
-                break;
-            }
+            // The holder is again the item's owner
+            item.holder = this;
         }
     }
 }

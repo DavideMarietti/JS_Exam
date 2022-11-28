@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="class diagrams implementation works fine.">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Improved Collector's methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/main.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/user.mjs" afterDir="false" />
     </list>
@@ -20,6 +21,11 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="2I2Ffv4TG6XtEtPcfNz8hlNMWbX" />
   <component name="ProjectViewState">
@@ -45,7 +51,7 @@
       <workItem from="1669371881915" duration="32142000" />
       <workItem from="1669551046487" duration="732000" />
       <workItem from="1669628473534" duration="25000" />
-      <workItem from="1669665015698" duration="3056000" />
+      <workItem from="1669665015698" duration="12703000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -54,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669551095689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improved Collector's methods">
+      <created>1669668307403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669668307404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
     <MESSAGE value="class diagrams implementation works fine." />
-    <option name="LAST_COMMIT_MESSAGE" value="class diagrams implementation works fine." />
+    <MESSAGE value="Improved Collector's methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Collector's methods" />
   </component>
 </project>
