@@ -6,9 +6,9 @@
 import {Collectable} from "./collectable.mjs";
 import {User, Collector} from "./user.mjs";
 
-const collector1 = new Collector("Ada", "Lovelace");
-const collector2 = new Collector("Alan", "Turing");
-const user1 = new User("Max", "Plack");
+const Ada = new Collector("Ada", "Lovelace");
+const Alan = new Collector("Alan", "Turing");
+const Max = new User("Max", "Plack");
 
 const item1 = new Collectable("Marchingegno", "Macchina di Turing completa di nastro");
 const item2 = new Collectable("Motore Analitico", "Il primo computer della storia, se solo fosse esistito");
@@ -17,65 +17,65 @@ const item4 = new Collectable("Lettera 22", "Una macchina da scrivere, per chi a
 const item5 = new Collectable("33 giri", "Un disco, stanno tornando di moda");
 const item6 = new Collectable("Pellicola fotografica", "Ebbene sì, c'è ancora chi fa fotografie analogiche");
 
-collector1.collect(item1);
-collector1.collect(item2);
-collector2.collect(item3);
-collector2.collect(item4);
-collector2.collect(item5);
-collector2.collect(item6, false);
+Ada.collect(item1);
+Ada.collect(item2);
+Alan.collect(item3);
+Alan.collect(item4);
+Alan.collect(item5);
+Alan.collect(item6, false);
 
 // Get info about an item give its id
 //console.log(Collectable.getCollectable(2));
 //console.log(Collectable.getAllCollectables());
 
-console.log("//__________________________Initial Collections__________________________//");
-//console.dir(collector1, {depth: 3});
+console.log("//________________________________Initial Collections_________________________________//");
+//console.dir(Ada, {depth: 3});
 
 /*
-console.log('collector1: ', collector1.currentCollection)
-console.log('collector2: ', collector2.currentCollection)
-console.log('user1: ', user1.currentCollection)
+console.log('Ada: ', Ada.currentCollection)
+console.log('Alan: ', Alan.currentCollection)
+console.log('Max: ', Max.currentCollection)
 */
 
-collector1.loan(item1, collector2);
-collector1.loan(item2, collector2);
-collector2.loan(item3, collector1);
-collector2.loan(item4, user1);
+Ada.loan(item1, Alan);
+Ada.loan(item2, Alan);
+Alan.loan(item3, Ada);
+Alan.loan(item4, Max);
 
-collector2.remove(item5);
+Alan.remove(item5);
 
-console.log("//_____________________________After the loan_____________________________//");
+console.log("//___________________________________After the loan___________________________________//");
 /*
-console.log('collector1: ', collector1.currentCollection);
-console.log('collector2: ', collector2.currentCollection);
-console.log('user1: ', user1.currentCollection);
+console.log('Ada: ', Ada.currentCollection);
+console.log('Alan: ', Alan.currentCollection);
+console.log('Max: ', Max.currentCollection);
 */
 
-collector1.takeBack(item2);
-collector2.takeBack(item3);
-collector2.takeBack(item4);
+Ada.takeBack(item2);
+Alan.takeBack(item3);
+Alan.takeBack(item4);
 
 
-console.log("//_______________________After items are given back_______________________//");
-
-/*
-console.log('collector1: ', collector1.currentCollection);
-console.log('collector2: ', collector2.currentCollection);
-console.log('user1: ', user1.currentCollection);
-*/
+console.log("//_____________________________After items are given back_____________________________//");
 
 /*
-console.log('collector1: ', collector1);
-console.log('collector2: ', collector2);
-console.log('user1: ', user1);
+console.log('Ada: ', Ada.currentCollection);
+console.log('Alan: ', Alan.currentCollection);
+console.log('Max: ', Max.currentCollection);
 */
 
 /*
-console.log('collector1 own collection (marchingegno, motore analitico): ', collector1.ownCollection);
-console.log('collector2 received on load items (marchingegno): ', collector2.onLoanCollection);
-console.log('collector1 onLoan items (marchingegno): ', collector1.onLoanItems);
-console.log('collector2 available items (biro, lettera 33): ', collector2.availableItems);
-console.log('collector2 private items(pellicola fotografica): ', collector2.privateItems);
+console.log('Ada: ', Ada);
+console.log('Alan: ', Alan);
+console.log('Max: ', Max);
+*/
+
+/*
+console.log('Ada own collection (marchingegno, motore analitico): ', Ada.ownCollection);
+console.log('Alan received on load items (marchingegno): ', Alan.onLoanCollection);
+console.log('Ada onLoan items (marchingegno): ', Ada.onLoanItems);
+console.log('Alan available items (biro, lettera 33): ', Alan.availableItems);
+console.log('Alan private items(pellicola fotografica): ', Alan.privateItems);
 */
 
 // Get info about a User give its id
