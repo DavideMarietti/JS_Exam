@@ -135,6 +135,7 @@ export class Collector extends User {
             if (collectable.onLoan) {
                 this.takeBack(collectable);
             }
+
             this._collection.splice(indexRemoved, 1);
         }
     }
