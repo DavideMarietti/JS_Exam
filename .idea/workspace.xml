@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Improved Collector's functions using Find and Filter in an arrow function format -&gt; more compact and easy to read.">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="aggiungo load-data.mjs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/user.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/load-data.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/main.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Luna_Cloud/Server_node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -52,6 +53,7 @@
       <workItem from="1669628473534" duration="25000" />
       <workItem from="1669665015698" duration="12796000" />
       <workItem from="1669678052206" duration="19000" />
+      <workItem from="1669902239485" duration="4125000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -74,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669677950933</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aggiungo load-data.mjs">
+      <created>1669902329970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669902329970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +118,7 @@
     <MESSAGE value="class diagrams implementation works fine." />
     <MESSAGE value="Improved Collector's methods" />
     <MESSAGE value="Improved Collector's functions using Find and Filter in an arrow function format -&gt; more compact and easy to read." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Collector's functions using Find and Filter in an arrow function format -&gt; more compact and easy to read." />
+    <MESSAGE value="aggiungo load-data.mjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiungo load-data.mjs" />
   </component>
 </project>

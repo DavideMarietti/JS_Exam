@@ -5,6 +5,7 @@
 
 import {Collectable} from "./collectable.mjs";
 import {User, Collector} from "./user.mjs";
+import {createApp} from "./load-data.mjs";
 
 const Ada = new Collector("Ada", "Lovelace");
 const Alan = new Collector("Alan", "Turing");
@@ -45,6 +46,7 @@ Alan.loan(item4, Max);
 Alan.remove(item5);
 
 console.log("//___________________________________After the loan___________________________________//");
+
 /*
 console.log('Ada: ', Ada.currentCollection);
 console.log('Alan: ', Alan.currentCollection);
@@ -72,7 +74,6 @@ console.log('Max: ', Max);
 */
 
 
-
 /*
 console.log('Ada current collection (Motore Analitico): ', Ada.currentCollection);
 console.log('Alan current collection (Marchingenio, Biro, Lettera 22, Pellicola Fotografica: ', Alan.currentCollection);
@@ -87,3 +88,29 @@ console.log('Alan private items(pellicola fotografica): ', Alan.privateItems);
 // Get info about a User give its id
 //console.dir(User.getUser(1), {depth: 3});
 //console.dir(User.getAllUsers(), {depth: 3});
+
+
+// Once downloaded all data, the application is initialized
+
+import {createApp} from "./load-data";
+
+createApp()
+    .then((app) => {
+        for (let u of Object.values((app.users))) {
+
+            let buttonTemplate = "";
+            if (u == selectedUser) {
+                buttonTemplate = `<p utente="${u.name}" class="selected"> ${u.name} <\p>`
+            } else {
+                buttonTemplate = `<p utente="${u.name}"> ${u.name} <\p>`
+            }
+            container.insertAdjacentHTML("beforeend",)
+        }
+
+        function reset() {
+
+        }
+
+        // Tutto il js che mi inizializza l'app
+
+    })
