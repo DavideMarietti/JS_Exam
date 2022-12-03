@@ -70,7 +70,7 @@ La smania che mi prende di vestirmi da sirena
 async function initUsers(app) {
     try {
         const res = await fetch("../data/users.json"); // Fetch data from a simulated DB
-        const users = await JSON.parse(res);
+        const users = await res.json();
 
         for (let user of users) {
             // If the user is a collector

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Integrating all things done at lesson">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="minor changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Icons/icons8-pianta-da-vaso-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icons8-pianta-da-vaso-100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Icons/icons8-pianta-da-vaso-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icons8-pianta-da-vaso-50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Icons/icons8-pianta-da-vaso-bubbles-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icons8-pianta-da-vaso-bubbles-16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Icons/icons8-pianta-da-vaso-bubbles-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icons8-pianta-da-vaso-bubbles-32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Icons/icons8-pianta-da-vaso-bubbles-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/icons8-pianta-da-vaso-bubbles-96.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/collectable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/collectable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,8 @@
       <workItem from="1669678052206" duration="19000" />
       <workItem from="1669902239485" duration="4125000" />
       <workItem from="1670062793328" duration="719000" />
-      <workItem from="1670085603773" duration="4424000" />
+      <workItem from="1670085603773" duration="4837000" />
+      <workItem from="1670107008065" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670089803594</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="minor changes">
+      <created>1670090087384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670090087384</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +159,7 @@
     <MESSAGE value="aggiungo load-data.mjs" />
     <MESSAGE value="pending edit" />
     <MESSAGE value="Integrating all things done at lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrating all things done at lesson" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>

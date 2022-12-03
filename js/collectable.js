@@ -81,7 +81,7 @@ export class Collectable {
 // Subclass extending and specializing the Collectable class
 export class Plant extends Collectable {
 
-    constructor(name, description, img, origin, group, meaning, season, bloom, handle, rarity, sun, water) {
+    constructor(name, description, img, origin, group, meaning, climate, bloom, handle, rarity, sun, water) {
 
         super(name, description)
 
@@ -89,11 +89,11 @@ export class Plant extends Collectable {
         this.group = group;
         this.meaning = meaning; // meaning of the plant in some country (e.g. Japan, Italy, ...)
         this.origin = origin; // geographical origin
-        this.season = season; // best season to host the plant (e.g. when it blooms/produce fruits)
+        this.climate = climate; // best season to host the plant (e.g. when it blooms/produce fruits)
         this.bloom = bloom; // bool -> does it produces flowers
         this.handle = handle; // categorical -> how much is it hard to handle
         this.rarity = rarity; // categorical -> how much rare it is (from 1 to 10)
         this.sun = sun; // categorical -> how much sun it needs
-        this.wather = water; // categorical -> how much water it needs
+        this.water = water; // categorical -> how much water it needs
     }
 }
