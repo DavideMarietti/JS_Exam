@@ -1,2 +1,2 @@
 # examJS
-Repository for the JS master proj 
+Repository for the JS master proj.
