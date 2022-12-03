@@ -1,49 +1,38 @@
 html {
     font-size: 14pt;
-    font-family: sans-serif;
+    font-family: arial, verdana, sans-serif;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-
     display: grid;
-    grid-template-columns: [first] 5vh [line2] 20% [line3] auto [col4-start] 20% [five] 5vh [end];
-    grid-template-rows: [margin] 5vh [row1-start] 10% [row1-end] auto [third-line] 5% [last-line] 5vh [margin];
+    grid-template-columns: repeat(4,20%);
+    gap: 8px;
+    grid-template-rows: 2fr 9fr 1fr;
 }
 
 header {
     background-color: blue;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column: 1/6;
+    grid-row: 1/2;
 }
 
 main {
     background-color: darkred;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
-
-    display: flex;
+    grid-column: 2/6;
+    grid-row: 2/4;
 }
 
 nav {
     background-color: yellow;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column: 1/2;
+    grid-row: 2/4;
 }
 
 footer {
+    position: relative;
     background-color: chartreuse;
-    grid-column-start: 2;
-    grid-column-end: five;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-column: 1/6;
+    grid-row: 4/5;
 }
+
+
