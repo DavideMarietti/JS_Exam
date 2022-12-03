@@ -81,10 +81,11 @@ export class Collectable {
 // Subclass extending and specializing the Collectable class
 export class Plant extends Collectable {
 
-    constructor(name, description, origin, group, meaning, season, bloom, handle, rarity, sun, water) {
+    constructor(name, description, img, origin, group, meaning, season, bloom, handle, rarity, sun, water) {
 
         super(name, description)
 
+        this.img = img;
         this.group = group;
         this.meaning = meaning; // meaning of the plant in some country (e.g. Japan, Italy, ...)
         this.origin = origin; // geographical origin
