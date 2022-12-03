@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Alice",
+    "surname": "Corvetto",
+    "collector": true,
+    "items": [
+      "eightdays",
+      "ship2wreck",
+      "thankU",
+      "cityofangels"
+    ]
+  },
+  {
+    "name": "Matteo",
+    "surname": "De Angeli",
+    "collector": true,
+    "items": [
+      "labyrinth",
+      "cicale",
+      "alghero"
+    ]
+  },
+  {
+    "name": "Celia",
+    "surname": "Gioia",
+    "collector": false
+  },
+  {
+    "name": "Daniele",
+    "surname": "Centrale",
+    "collector": false
+  }
+]

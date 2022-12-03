@@ -1,4 +1,4 @@
-import CollectionItem from "./collection-item.mjs";
+import CollectionItem from "./collection-item.js";
 
 
 // Class representing users that don't own any CollectableItem, but that can take on loan CollectableItems of other users

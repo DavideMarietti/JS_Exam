@@ -1,11 +1,10 @@
 // Application that allows users and collectors to loan collectable objs.
 // Note: exchanged objs are unique: if X takes on loan Y, no one can take on loan Y until it is given back to X.
 
-// This test file is useful to check the initial implementation of the class diagrams
+// This TEST file is useful to check the initial implementation of the class diagrams
 
-import {Collectable} from "./collectable.mjs";
-import {User, Collector} from "./user.mjs";
-import {createApp} from "./load-data.mjs";
+import {Collectable} from "./collectable.js";
+import {User, Collector} from "./user.js";
 
 const Ada = new Collector("Ada", "Lovelace");
 const Alan = new Collector("Alan", "Turing");
@@ -88,29 +87,3 @@ console.log('Alan private items(pellicola fotografica): ', Alan.privateItems);
 // Get info about a User give its id
 //console.dir(User.getUser(1), {depth: 3});
 //console.dir(User.getAllUsers(), {depth: 3});
-
-
-// Once downloaded all data, the application is initialized
-
-import {createApp} from "./load-data";
-
-createApp()
-    .then((app) => {
-        for (let u of Object.values((app.users))) {
-
-            let buttonTemplate = "";
-            if (u == selectedUser) {
-                buttonTemplate = `<p utente="${u.name}" class="selected"> ${u.name} <\p>`
-            } else {
-                buttonTemplate = `<p utente="${u.name}"> ${u.name} <\p>`
-            }
-            container.insertAdjacentHTML("beforeend",)
-        }
-
-        function reset() {
-
-        }
-
-        // Tutto il js che mi inizializza l'app
-
-    })
