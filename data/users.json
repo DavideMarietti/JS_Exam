@@ -3,26 +3,34 @@
     "name": "Alice",
     "surname": "Corvetto",
     "collector": true,
+    "img": "default.jpg",
     "items": [
-      "Cephalotus follicularis"
+      "Cephalotus follicularis",
+      "Nepenthes Lowii",
+      "Rafflesiaceae",
+      "Caper"
     ]
   },
   {
     "name": "Matteo",
     "surname": "De Angeli",
     "collector": true,
+    "img": "default.jpg",
     "items": [
-
+      "Drosera capensis",
+      "Venus Flytrap"
     ]
   },
   {
     "name": "Celia",
     "surname": "Gioia",
+    "img": "default.jpg",
     "collector": false
   },
   {
     "name": "Daniele",
     "surname": "Centrale",
+    "img": "default.jpg",
     "collector": false
   }
 ]

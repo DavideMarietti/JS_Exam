@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="minor changes">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Adding plants">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/collectable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/collectable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,7 +70,7 @@
       <workItem from="1669902239485" duration="4125000" />
       <workItem from="1670062793328" duration="719000" />
       <workItem from="1670085603773" duration="4837000" />
-      <workItem from="1670107008065" duration="2944000" />
+      <workItem from="1670107008065" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670090087384</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding plants">
+      <created>1670110209797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670110209798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +159,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="class diagrams implementation works fine." />
     <MESSAGE value="Improved Collector's methods" />
@@ -160,6 +168,7 @@
     <MESSAGE value="pending edit" />
     <MESSAGE value="Integrating all things done at lesson" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="Adding plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding plants" />
   </component>
 </project>

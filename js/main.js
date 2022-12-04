@@ -1,6 +1,6 @@
 // Once downloaded all data, the application is initialized using the createApp() function
 
-import {createApp} from "./load-data";
+import {createApp} from "./load-data.js";
 
 createApp()
     .then((app) => {
