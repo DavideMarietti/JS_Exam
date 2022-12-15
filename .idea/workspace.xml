@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Adding plants">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Finishing adding plants">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +36,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\img" />
       <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -70,7 +68,10 @@
       <workItem from="1669902239485" duration="4125000" />
       <workItem from="1670062793328" duration="719000" />
       <workItem from="1670085603773" duration="4837000" />
-      <workItem from="1670107008065" duration="5054000" />
+      <workItem from="1670107008065" duration="5391000" />
+      <workItem from="1670592294622" duration="1000" />
+      <workItem from="1670678962309" duration="11000" />
+      <workItem from="1671098238865" duration="2696000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670110209798</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finishing adding plants">
+      <created>1670112439992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670112439992</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +177,7 @@
     <MESSAGE value="Integrating all things done at lesson" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="Adding plants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding plants" />
+    <MESSAGE value="Finishing adding plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing adding plants" />
   </component>
 </project>
