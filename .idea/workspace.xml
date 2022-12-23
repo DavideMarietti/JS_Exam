@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Finishing adding plants">
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="minor changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/collectable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/collectable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/collection-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/collection-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +79,9 @@
       <workItem from="1670592294622" duration="1000" />
       <workItem from="1670678962309" duration="11000" />
       <workItem from="1671098238865" duration="2696000" />
+      <workItem from="1671137849418" duration="1478000" />
+      <workItem from="1671139567261" duration="5424000" />
+      <workItem from="1671832261066" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -136,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670112439992</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="minor changes">
+      <created>1671138035161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671138035161</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,9 +192,9 @@
     <MESSAGE value="aggiungo load-data.mjs" />
     <MESSAGE value="pending edit" />
     <MESSAGE value="Integrating all things done at lesson" />
-    <MESSAGE value="minor changes" />
     <MESSAGE value="Adding plants" />
     <MESSAGE value="Finishing adding plants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing adding plants" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>

@@ -13,7 +13,7 @@ export async function createApp() {
 
     await initPlants(app);
     await initUsers(app);
-    await simulateLoan(app);
+    simulateLoan(app); // todo: put it in a then to treat async properly
 
     return app; // returning a promise of the app obj
 }
@@ -32,7 +32,7 @@ async function initPlants(app) {
                 plant.discovery);
         }
     } catch (err) {
-        // Handle errors
+        // Todo: handle errors
     }
 }
 
@@ -49,14 +49,14 @@ async function initUsers(app) {
             if (user.collector) {
                 app.users[user.name] = new Collector(user.name, user.surname);
                 for (let plant of user.items) {
-                    app.users[user.name].collect(plant); // assign items to the user's collection
+                    app.users[user.name].collect(app.plants[plant]); // assign items to the user's collection
                 }
             } else {
                 app.users[user.name] = new User(user.name, user.surname);
             }
         }
     } catch (err) {
-        // Handle errors
+        // Todo: handle errors
     }
 }
 

@@ -10,7 +10,6 @@ export default class CollectionItem {
         this._holder = null; // The recipient of the loan. Once created, an item is not on loan to anyone
     }
 
-
     // Read-only private attributes
     //________________________________________________________________________________________________________________//
 
@@ -18,16 +17,13 @@ export default class CollectionItem {
         return this._collectable;
     }
 
-
     get owner() {
         return this._owner;
     }
 
-
     get available() {
         return this._available;
     }
-
 
     // Calculated, read-only, private attributes
     //________________________________________________________________________________________________________________//
@@ -35,7 +31,6 @@ export default class CollectionItem {
     get onLoan() {
         return (this._holder !== null);
     }
-
 
     // Access-controlled private attributes
     //________________________________________________________________________________________________________________//
@@ -50,7 +45,7 @@ export default class CollectionItem {
         if (collector === this.owner) { // Give back the item to the owner -> always fine
             this._holder = null;
         } else {
-            if (this._holder === null) { // Loan the item to a user -> allowed only if the item is currently not on load
+            if (this._holder === null && this.available) { // Loan the item to a user -> allowed only if the item is currently not on load
                 this._holder = collector;
             }
         }

@@ -27,7 +27,6 @@ export class User {
         return this._listUsers;
     }
 
-
     //Constructor
     //________________________________________________________________________________________________________________//
 
@@ -41,14 +40,12 @@ export class User {
         User._listUsers[this.identifier] = this;
     }
 
-
     // Read-only private attributes
     //________________________________________________________________________________________________________________//
 
     get identifier() {
         return this._identifier;
     }
-
 
     // Private attributes
     //________________________________________________________________________________________________________________//
@@ -69,7 +66,6 @@ export class User {
         this._surname = s;
     }
 
-
     // Calculated and Read-only attributes
     //________________________________________________________________________________________________________________//
 
@@ -85,7 +81,6 @@ export class Collector extends User {
     constructor(name, surname) {
         super(name, surname)
     }
-
 
     // Calculated and Read-only attributes
     //________________________________________________________________________________________________________________//
@@ -114,7 +109,6 @@ export class Collector extends User {
     get privateItems() {
         return this._collection.filter((item) => (item.owner === this && item.available === false));
     }
-
 
     // Methods
     //________________________________________________________________________________________________________________//
@@ -153,7 +147,6 @@ export class Collector extends User {
             collector._collection.push(itemFound); // Add the CollectableItem to the collector's collection
         }
     }
-
 
     // Given a Collectable, if present and on loan it is given back to the owner and removed from the collection of the holder
     takeBack(collectable) {
