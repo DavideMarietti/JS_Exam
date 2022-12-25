@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="everything works fine till here. Now trying to improve functionalities.">
-      <change afterPath="$PROJECT_DIR$/img/icons.svg" afterDir="false" />
+    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="Some improvement.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/plants/Caper.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/plants/Caper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/plants/Cephalotus_folliculari.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/plants/Cephalotus_folliculari.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
       <workItem from="1671098238865" duration="2696000" />
       <workItem from="1671137849418" duration="1478000" />
       <workItem from="1671139567261" duration="5424000" />
-      <workItem from="1671832261066" duration="17138000" />
+      <workItem from="1671832261066" duration="23936000" />
     </task>
     <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
       <created>1669551095689</created>
@@ -160,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671836695793</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Some improvement.">
+      <created>1671927218574</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671927218574</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +205,7 @@
     <MESSAGE value="Finishing adding plants" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="everything works fine till here. Now trying to improve functionalities." />
-    <option name="LAST_COMMIT_MESSAGE" value="everything works fine till here. Now trying to improve functionalities." />
+    <MESSAGE value="Some improvement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some improvement." />
   </component>
 </project>
