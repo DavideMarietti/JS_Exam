@@ -14,8 +14,8 @@ createApp()
         let user = app.users[firstUser];
 
         const userButtonsText = allUsersName.map(name => (name === firstUser ?
-            `<p user-name="${name}" class="user-btn selected">${name}</p>`
-            : `<p user-name="${name}" class="user-btn">${name}</p>`));
+            `<p user-name="${name}" class="nav__el nav__el--cta selected">${name}</p>`
+            : `<p user-name="${name}" class="nav__el nav__el--cta">${name}</p>`));
 
         userButtons.innerHTML = userButtonsText.join("");
 
@@ -41,8 +41,10 @@ createApp()
             list.innerHTML = "";
 
             for (let coll_item of user.currentCollection) {
-                console.log(coll_item)
+
+                //console.log(coll_item)
                 let state = "";
+
                 if (!coll_item.available) {
                     state = "non disponibile";
                 } else if (coll_item.holder === coll_item.owner) {
@@ -53,12 +55,58 @@ createApp()
                     state = "ricevuto in prestito da " + coll_item.owner.name;
                 }
 
-                const template = `<li><strong>${coll_item.collectable.name}</strong>, ${state}</li>`;
+                const template = `<div class="card-item">
+                      <div class="card__header">
+                        <div class="card__picture">
+                          <img src='../img/plants/${coll_item.collectable.img}' alt="plant img" class="card__picture-img">
+                        </div>
+            
+                        <h3 class="heading-tertirary">
+                          <span>${coll_item.collectable.name}</span>
+                        </h3>
+                      </div>
+            
+                      <div class="card__details">
+                        <div class="card__data">
+                          <svg class="card__icon">
+                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                          </svg>
+                          <span>${coll_item.collectable.group}</span>
+                        </div>
+                        <div class="card__data">
+                          <svg class="card__icon">
+                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                          </svg>
+                          <span>${coll_item.collectable.origin}</span>
+                        </div>
+                        <div class="card__data">
+                          <svg class="card__icon">
+                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                          </svg>
+                          <span>${coll_item.collectable.sun}</span>
+                        </div>
+                        <div class="card__data">
+                          <svg class="card__icon">
+                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                          </svg>
+                          <span>${coll_item.collectable.water}</span>
+                        </div>
+                        <div class="card__data"></div>
+                      </div>
+            
+                       <div class="item-details">
+                        <a href="#" class="btn btn--green btn--small">Details</a>
+                       </div>
+                      <div class="card__footer">
+                        <p class="card__sub-heading">${state}</p>
+                      </div>
+                    </div>`
 
                 list.insertAdjacentHTML("beforeend", template);
             }
 
             const allitems = list.querySelectorAll("li");
+
             for (let item of allitems) {
                 item.addEventListener("mousedown", () => {
                     item.classList.toggle("evidenzia");

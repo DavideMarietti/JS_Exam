@@ -66,6 +66,6 @@ function simulateLoan(app) {
     app.users["Alice"].loan(app.plants["Caper"], app.users["Matteo"]);
     app.users["Alice"].loan(app.plants["Rafflesiaceae"], app.users["Celia"]);
 
-    app.users["Matteo"].loan(app.plants["Drosera capensis"], app.users["Celia"]);
+    app.users["Matteo"].loan(app.plants["Drosera capensis"], app.users["Alice"]);
     app.users["Matteo"].loan(app.plants["Venus Flytrap"], app.users["Alice"]);
 }
