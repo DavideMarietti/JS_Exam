@@ -2,6 +2,20 @@
 
 import {createApp} from "./load-data.js";
 
+
+const hideAlert = () => {
+    const el = document.querySelector('.alert');
+    if (el) el.parentElement.removeChild(el);
+};
+
+const showAlert = (type, msg, time= 5) => {
+    hideAlert();
+    const markup = `<div class="alert alert--${type}">${msg}</div>`;
+    document.querySelector('.collection').insertAdjacentHTML('afterbegin', markup);
+    window.setTimeout(hideAlert, time * 1000);
+};
+
+
 createApp()
     .then((app) => {
 
@@ -28,6 +42,19 @@ createApp()
             });
         }
 
+        const appLogo = document.querySelector(".header__logo");
+        appLogo.addEventListener("click", (e) => {
+            const home = document.querySelector(".home");
+            home.style.display = 'flex';
+            const main = document.querySelector(".collection");
+            main.style.display = 'none';
+            const nav = document.querySelector(".second-nav");
+            nav.style.display = 'none';
+
+            for (const p of mainNavButtons) {
+                p.classList.remove("selected");
+            }
+        });
 
         function init_profile(user) {
             const home = document.querySelector(".home");
@@ -106,16 +133,16 @@ createApp()
         function profilo(user) {
             const main = document.querySelector(".collection");
             main.style.display = 'none';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'flex';
         }
 
         function collezione_attuale(user) {
 
-            const home = document.querySelector(".home");
-            home.style.display = 'none';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'none';
             const main = document.querySelector(".collection");
             main.style.display = 'flex';
-            const nav = document.querySelector(".second-nav");
-            nav.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
             title.innerText = "Collezione di " + user.name;
@@ -176,6 +203,9 @@ createApp()
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
                       </div>
+                      <!--div class='description'>
+                        <p>Blurb to get reader hooked.</p>
+                      </div-->
                     </div>`
 
                 list.insertAdjacentHTML("beforeend", template);
@@ -191,12 +221,10 @@ createApp()
         }
 
         function piante_disponibili(user) {
-            const home = document.querySelector(".home");
-            home.style.display = 'none';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'none';
             const main = document.querySelector(".collection");
             main.style.display = 'flex';
-            const nav = document.querySelector(".second-nav");
-            nav.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
             title.innerText = "Piante disponibili";
@@ -250,7 +278,7 @@ createApp()
                         <div class="card__data"></div>
                       </div>
                        <div class="item-details">
-                        <a href="#" class="btn btn--green btn--small loan-btn" owner="${u}">Prendi in prestito</a>
+                        <p class="btn btn--green btn--small loan-btn" owner="${u}" item="${coll_item.collectable.name}">Prendi in prestito</p>
                        </div>
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
@@ -272,17 +300,26 @@ createApp()
 
             const allButtons = document.querySelectorAll(".loan-btn");
             for (const p of allButtons) {
-                console.log(p)
+                p.addEventListener("click", (e) => {
+                    const owner = p.getAttribute("owner");
+                    const item = p.getAttribute("item");
+                    const itemOwner = app.users[owner];
+
+                    itemOwner.loan(app.plants[item], user);
+
+                    showAlert('success', `${item} presa in prestito da ${user.name}`,2);
+                    window.setTimeout(() => {
+                        piante_disponibili(user)
+                    }, 1500);
+                });
             }
         }
 
         function piante_prestate(user) {
-            const home = document.querySelector(".home");
-            home.style.display = 'none';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'none';
             const main = document.querySelector(".collection");
             main.style.display = 'flex';
-            const nav = document.querySelector(".second-nav");
-            nav.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
             title.innerText = "Piante prestate";
@@ -332,7 +369,7 @@ createApp()
                         <div class="card__data"></div>
                       </div>
                        <div class="item-details">
-                        <a href="#" class="btn btn--green btn--small">Riprendi</a>
+                        <p class="btn btn--green btn--small takeBack-btn" item="${coll_item.collectable.name}">Riprendi</p>
                        </div>
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
@@ -348,6 +385,21 @@ createApp()
             for (let item of allitems) {
                 item.addEventListener("mousedown", () => {
                     item.classList.toggle("evidenzia");
+                });
+            }
+
+            const allButtons = document.querySelectorAll(".takeBack-btn");
+            for (const p of allButtons) {
+                p.addEventListener("click", (e) => {
+                    const item = p.getAttribute("item");
+
+                    user.takeBack(app.plants[item]);
+
+                    showAlert('success', `${item} ripresa da ${user.name}`,2);
+                    window.setTimeout(() => {
+                        piante_prestate(user)
+                    }, 1500);
+
                 });
             }
         }

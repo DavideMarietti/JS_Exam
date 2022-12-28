@@ -22,7 +22,7 @@ export class User {
         return this._listUsers[id];
     }
 
-    // Returns an array containing all the Collectable objs.
+    // Returns an array containing all the User objs.
     static getAllUsers() {
         return this._listUsers;
     }

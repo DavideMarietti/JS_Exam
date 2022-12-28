@@ -69,6 +69,24 @@ header {
     position: relative;
 }
 
+.profilo {
+    background-color: #f7f7f7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    padding: 1rem 2.5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+
 /* Removing scroll bar */
 .collection::-webkit-scrollbar {
     display: none;
@@ -150,7 +168,9 @@ li.evidenzia {
 .header__logo img {
     vertical-align: middle;
     height: 4rem;
+    cursor: pointer;
 }
+
 
 /* Color Palette
 #daefdb
@@ -282,6 +302,7 @@ li.evidenzia {
     -ms-flex-item-align: center;
     align-self: center;
 }
+
 
 .heading-primary,
 .heading-tertirary {
@@ -624,4 +645,31 @@ li.evidenzia {
     opacity: 1;
     padding: 0;
     position: relative;
+}
+
+.alert {
+    position: fixed;
+    z-index: 100 !important;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 9999;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1.6rem 15rem;
+    -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+}
+
+.alert--success {
+    background-color: #20bf6b;
+}
+
+.alert--error {
+    background-color: #eb4d4b;
 }
