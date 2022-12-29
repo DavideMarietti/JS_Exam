@@ -1,7 +1,7 @@
 [
   {
     "name": "Cephalotus follicularis",
-    "description": "Cephalotus follicularis is a small, low growing, herbaceous species. Evergreen leaves appear from underground rhizomes, are simple with an entire leaf blade, and lie close to the ground. The insectivorous leaves are small and have the appearance of moccasins, forming the 'pitcher' of the common name. The pitchers develop a dark red colour in high light levels but stay green in shadier conditions. The foliage is a basal arrangement that is closely arranged with outward facing adapted leaf blades. These leaves give the main form of the species a height around 20 cm.The 'pitcher' trap of the species is similar to other pitcher plants. The peristome at the entrance of the trap has a spiked arrangement that allows the prey to enter, but hinders its escape. The lid over the entrance, the operculum, prevents rainwater entering the pitcher and thus diluting the digestive enzymes inside. Insects trapped in this digestive fluid are consumed by the plant. The operculum has translucent cells which confuse its insect prey as they appear to be patches of sky. The inflorescence is groupings of small, hermaphroditic, six-parted, regular flowers, which are creamy, or whitish. In the cooler months of winter (down to about 5 degrees Celsius), they have a natural dormancy period of about 3–4 months, triggered by the temperature drop and reduced light levels.",
+    "description": "Cephalotus follicularis is a small, low growing, herbaceous species. Evergreen leaves appear from underground rhizomes, are simple with an entire leaf blade, and lie close to the ground. The insectivorous leaves are small and have the appearance of moccasins, forming the 'pitcher' of the common name. The pitchers develop a dark red colour in high light levels but stay green in shadier conditions. The foliage is a basal arrangement that is closely arranged with outward facing adapted leaf blades. These leaves give the main form of the species a height around 20 cm.",
     "img": "Cephalotus_folliculari.jpg",
     "origin": "Sud-West Australia",
     "group": "Carnivore Plant",
@@ -16,7 +16,7 @@
   },
   {
     "name": "Drosera capensis",
-    "description": "Drosera capensis produces strap-like leaves, up to 3.5 centimetres long (not including the petiole) and 0.5 centimetres wide, which, as in all sundews, are covered in brightly coloured tentacles which secrete a sticky mucilage that traps arthropods. It is a perennial, herbaceous plant that forms a rosette with a diameter of 18 to 25 cm and is characterized by numerous, reddish glandular erosions on 7 cm long and 5 mm wide, elongated leaves. The plant flowers in summer (December and January in its native habitat in South Africa) with up to 50 pale-violet, more than 2 cm large flowers borne on up to 35 cm high racemose inflorescences. The flowers can self-pollinate upon closing and produce copious quantities of very small, spindle-shaped seeds, which are released from the capsules that form when the flowers have died. The plant thrives in full sun locations on nutrient-poor, waterlogged and lime-free soils. When insects are first trapped, the leaves roll lengthwise toward the center. This aids digestion by bringing more digestive glands in contact with the prey. The plant leaf surrounds the prey within an hour while tentacles continue to move to further trap the prey. Digestion takes well over 6 hours after a prey's original ensnarement.",
+    "description": "Drosera capensis produces strap-like leaves, up to 3.5 centimetres long (not including the petiole) and 0.5 centimetres wide, which, as in all sundews, are covered in brightly coloured tentacles which secrete a sticky mucilage that traps arthropods. It is a perennial, herbaceous plant that forms a rosette with a diameter of 18cm and is characterized by numerous, reddish glandular erosions on 7 cm long and 5 mm wide, elongated leaves. The plant flowers in summer (December and January in its native habitat in South Africa) with up to 50 pale-violet, more than 2 cm large flowers borne on up to 35 cm high inflorescences.",
     "img": "DroseraWithFly.jpg",
     "origin": "Sud Africa",
     "group": "Carnivore Plant",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Venus Flytrap",
-    "description": "The Venus flytrap is a small plant whose structure can be described as a rosette of four to seven leaves, which arise from a short subterranean stem that is actually a bulb-like object. When an insect or spider crawling along the leaves contacts a hair, the trap prepares to close, snapping shut only if another contact occurs within approximately twenty seconds of the first strike. Triggers may occur with a tenth of a second of contact. The requirement of redundant triggering in this mechanism serves as a safeguard against wasting energy by trapping objects with no nutritional value, and the plant will only begin digestion after five more stimuli to ensure it has caught a live bug worthy of consumption",
+    "description": "The Venus flytrap is a small plant whose structure can be described as a rosette of four to seven leaves, which arise from a short subterranean stem that is actually a bulb-like object. When an insect or spider crawling along the leaves contacts a hair, the trap prepares to close, snapping shut only if another contact occurs within approximately twenty seconds of the first strike. Triggers may occur with a tenth of a second of contact. The requirement of redundant triggering in this mechanism serves as a safeguard against wasting energy by trapping objects with no nutritional value.",
     "img": "Venus_Flytrap.jpg",
     "origin": "East Coast, USA",
     "group": "Carnivore Plant",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Nepenthes Lowii",
-    "description": "Nepenthes Lowii is a climbing plant. The stem may attain a length of more than 10 m and is up to 20 mm in diameter. Internodes are cylindrical in cross section and up to 8 cm long. The leaves of this species are coriaceous in texture. The lamina or leaf blade is petiolate, oblong-lanceolate in shape, and up to 30 cm long by 9 cm wide. It has a rounded apex and an abruptly contracted base. The petiole is canaliculate and up to 14 cm long. It forms a flat sheath that clasps the stem for two-thirds to four-fifths of its circumference. Three to four longitudinal veins are present on either side of the midrib. Pinnate veins run straight or obliquely with respect to the lamina. Tendrils are up to 20 cm long and are not usually curled.",
+    "description": "Nepenthes Lowii is a climbing plant. The stem may attain a length of more than 10 m and is up to 20 mm in diameter. Internodes are cylindrical in cross section and up to 8 cm long. The leaves of this species are coriaceous in texture. The lamina or leaf blade is petiolate, oblong-lanceolate in shape, and up to 30 cm long by 9 cm wide. It has a rounded apex and an abruptly contracted base. The petiole is canaliculate and up to 14 cm long. It forms a flat sheath that clasps the stem for two-thirds to four-fifths of its circumference.",
     "img": "Nepenthes_lowii.jpg",
     "origin": "Borneo, Brunei",
     "group": "Carnivore Plant",
@@ -76,7 +76,7 @@
   },
   {
     "name": "Caper",
-    "description": "Capparis spinosa, the caper bush, also called Flinders rose, is a perennial plant that bears rounded, fleshy leaves and large white to pinkish-white flowers. The plant is best known for the edible flower buds (capers), used as a seasoning or garnish, and the fruit (caper berries), both of which are usually consumed salted or, alternatively, pickled. Other species of Capparis are also picked along with C. spinosa for their buds or fruits. Other parts of Capparis plants are used in the manufacture of medicines and cosmetics. The shrubby plant is many-branched, with alternate leaves, thick and shiny, round to ovate. The flowers are complete, sweetly fragrant, and showy, with four sepals and four white to pinkish-white petals, and many long violet-colored stamens, and a single stigma usually rising well above the stamens.",
+    "description": "Capparis spinosa, the caper bush, also called Flinders rose, is a perennial plant that bears rounded, fleshy leaves and large white to pinkish-white flowers. The plant is best known for the edible flower buds (capers), used as a seasoning or garnish, and the fruit (caper berries), both of which are usually consumed salted or, alternatively, pickled. Other species of Capparis are also picked along with C. spinosa for their buds or fruits. Other parts of Capparis plants are used in the manufacture of medicines and cosmetics.",
     "img": "Caper.jpg",
     "origin": "Mediterranean basin",
     "group": "Perennial Plant",

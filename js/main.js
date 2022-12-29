@@ -204,9 +204,10 @@ createApp()
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
                       </div>
-                      <!--div class='description'>
-                        <p>Blurb to get reader hooked.</p>
-                      </div-->
+                        <div class="overlay">
+                        <div class="overlay-title"><strong>Description</strong></div>
+                        <div class="overlay-text">${coll_item.collectable.description}</div>
+                      </div>
                     </div>`
 
                 list.insertAdjacentHTML("beforeend", template);

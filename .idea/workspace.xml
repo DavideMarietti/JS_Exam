@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="improved flow">
+    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/esameJS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,225 +17,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="JsbtTreeLayoutManager">
-    <layout place="tools.popupGrunt">
-      <scroll-view-position x="0" y="0" />
-    </layout>
-  </component>
-  <component name="ProjectId" id="2I2Ffv4TG6XtEtPcfNz8hlNMWbX" />
+  <component name="ProjectId" id="2JbeGagS51ojyqMLtQvxRBEIPOD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Luna_Cloud/Server_node" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\img" />
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\html" />
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\css" />
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\js" />
-      <recent name="C:\Users\david\Desktop\Master_Full_Stack\JavaScript\examJS\img" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9fca929c-2136-41bf-b677-13312d2d5529" name="Changes" comment="" />
-      <created>1669371879502</created>
+      <changelist id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="" />
+      <created>1672351114726</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669371879502</updated>
-      <workItem from="1669371881915" duration="32142000" />
-      <workItem from="1669551046487" duration="732000" />
-      <workItem from="1669628473534" duration="25000" />
-      <workItem from="1669665015698" duration="12796000" />
-      <workItem from="1669678052206" duration="19000" />
-      <workItem from="1669902239485" duration="4125000" />
-      <workItem from="1670062793328" duration="719000" />
-      <workItem from="1670085603773" duration="4837000" />
-      <workItem from="1670107008065" duration="5391000" />
-      <workItem from="1670592294622" duration="1000" />
-      <workItem from="1670678962309" duration="11000" />
-      <workItem from="1671098238865" duration="2696000" />
-      <workItem from="1671137849418" duration="1478000" />
-      <workItem from="1671139567261" duration="5424000" />
-      <workItem from="1671832261066" duration="45078000" />
-      <workItem from="1672244030647" duration="7099000" />
-      <workItem from="1672265278395" duration="204000" />
-      <workItem from="1672265528605" duration="1414000" />
-      <workItem from="1672321258937" duration="5011000" />
+      <updated>1672351114726</updated>
+      <workItem from="1672351117151" duration="404000" />
+      <workItem from="1672351554061" duration="2545000" />
     </task>
-    <task id="LOCAL-00001" summary="class diagrams implementation works fine.">
-      <created>1669551095689</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1669551095689</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Improved Collector's methods">
-      <created>1669668307403</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669668307404</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Improved Collector's functions using Find and Filter in an arrow function format -&gt; more compact and easy to read.">
-      <created>1669677950933</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669677950933</updated>
-    </task>
-    <task id="LOCAL-00004" summary="aggiungo load-data.mjs">
-      <created>1669902329970</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669902329970</updated>
-    </task>
-    <task id="LOCAL-00005" summary="pending edit">
-      <created>1670062851497</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670062851497</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Integrating all things done at lesson">
-      <created>1670089803594</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1670089803594</updated>
-    </task>
-    <task id="LOCAL-00007" summary="minor changes">
-      <created>1670090087384</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1670090087384</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding plants">
-      <created>1670110209797</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1670110209798</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Finishing adding plants">
-      <created>1670112439992</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1670112439992</updated>
-    </task>
-    <task id="LOCAL-00010" summary="minor changes">
-      <created>1671138035161</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1671138035161</updated>
-    </task>
-    <task id="LOCAL-00011" summary="everything works fine till here. Now trying to improve functionalities.">
-      <created>1671836695793</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1671836695793</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Some improvement.">
-      <created>1671927218574</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1671927218574</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Some more improvement. Everything works fine.">
-      <created>1671965344468</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1671965344468</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Everything works fine.">
-      <created>1672245192807</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1672245192807</updated>
-    </task>
-    <task id="LOCAL-00015" summary="improved flow">
-      <created>1672266943230</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1672266943230</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Second Commit" />
-    <MESSAGE value="class diagrams implementation works fine." />
-    <MESSAGE value="Improved Collector's methods" />
-    <MESSAGE value="Improved Collector's functions using Find and Filter in an arrow function format -&gt; more compact and easy to read." />
-    <MESSAGE value="aggiungo load-data.mjs" />
-    <MESSAGE value="pending edit" />
-    <MESSAGE value="Integrating all things done at lesson" />
-    <MESSAGE value="Adding plants" />
-    <MESSAGE value="Finishing adding plants" />
-    <MESSAGE value="minor changes" />
-    <MESSAGE value="everything works fine till here. Now trying to improve functionalities." />
-    <MESSAGE value="Some improvement." />
-    <MESSAGE value="Some more improvement. Everything works fine." />
-    <MESSAGE value="Everything works fine." />
-    <MESSAGE value="improved flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved flow" />
   </component>
 </project>
