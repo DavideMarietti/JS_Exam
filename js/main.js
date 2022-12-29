@@ -78,7 +78,7 @@ createApp()
             profilo(user)
 
             for (const b of navButton) {
-                if (b.innerHTML === "Profilo utente") {
+                if (b.innerHTML === "User profile") {
                     b.addEventListener("click", () => {
                         const all = b.parentElement.children;
                         for (const child of all) {
@@ -90,7 +90,7 @@ createApp()
                         }
                         profilo(user);
                     })
-                } else if (b.innerHTML === "Collezione attuale") {
+                } else if (b.innerHTML === "Collection") {
                     b.addEventListener("click", () => {
                         const all = b.parentElement.children;
                         for (const child of all) {
@@ -102,7 +102,7 @@ createApp()
                         }
                         collezione_attuale(user);
                     })
-                } else if (b.innerHTML === "Piante disponibili") {
+                } else if (b.innerHTML === "Available plants") {
                     b.addEventListener("click", () => {
                         const all = b.parentElement.children;
                         for (const child of all) {
@@ -114,7 +114,7 @@ createApp()
                         }
                         piante_disponibili(user);
                     })
-                } else if (b.innerHTML === "Piante prestate") {
+                } else if (b.innerHTML === "Plants on loan") {
                     b.addEventListener("click", () => {
                         const all = b.parentElement.children;
                         for (const child of all) {
@@ -146,7 +146,7 @@ createApp()
             main.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
-            title.innerText = "Collezione di " + user.name;
+            title.innerText = user.name + "'s Collection";
 
             const list = document.querySelector(".collection-content");
             list.innerHTML = "";
@@ -156,13 +156,13 @@ createApp()
                 let state = "";
 
                 if (!coll_item.available) {
-                    state = "non disponibile";
+                    state = "Not available";
                 } else if (coll_item.holder === coll_item.owner) {
-                    state = "disponibile al prestito";
+                    state = "Available";
                 } else if (coll_item.owner === user) {
-                    state = "in prestito a " + coll_item.holder.name;
+                    state = "On loan to " + coll_item.holder.name;
                 } else {
-                    state = "ricevuto in prestito da " + coll_item.owner.name;
+                    state = "Received on loan from " + coll_item.owner.name;
                 }
 
                 const template = `<div class="card-item">
@@ -229,7 +229,7 @@ createApp()
             main.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
-            title.innerText = "Piante disponibili";
+            title.innerText = "Available Plants";
 
             const list = document.querySelector(".collection-content");
             list.innerHTML = "";
@@ -241,7 +241,7 @@ createApp()
                 if (collectUser.name !== user.name && collectUser.constructor.name === "Collector") {
                     for (let coll_item of collectUser.availableItems) {
 
-                        let state = "disponibile da " + u;
+                        let state = "Available from " + u;
 
                         const template = `<div class="card-item">
                       <div class="card__header">
@@ -280,7 +280,7 @@ createApp()
                         <div class="card__data"></div>
                       </div>
                        <div class="item-details">
-                        <p class="btn btn--green btn--small loan-btn" owner="${u}" item="${coll_item.collectable.name}">Prendi in prestito</p>
+                        <p class="btn btn--green btn--small loan-btn" owner="${u}" item="${coll_item.collectable.name}">Borrow</p>
                        </div>
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
@@ -309,7 +309,7 @@ createApp()
 
                     itemOwner.loan(app.plants[item], user);
 
-                    showAlert('success', `${item} presa in prestito da ${user.name}`,2);
+                    showAlert('success', `${item} borrowed from ${user.name}`,2);
                     window.setTimeout(() => {
                         piante_disponibili(user)
                     }, 1500);
@@ -324,7 +324,7 @@ createApp()
             main.style.display = 'flex';
 
             const title = document.querySelector(".collection-title");
-            title.innerText = "Piante prestate";
+            title.innerText = "On loan plants";
 
             const list = document.querySelector(".collection-content");
             list.innerHTML = "";
@@ -332,7 +332,7 @@ createApp()
             for (let coll_item of user.onLoanItems) {
 
                 if (coll_item.owner === user) {
-                    let state = "in prestito a " + coll_item.holder.name;
+                    let state = "On loan to " + coll_item.holder.name;
 
                     const template = `<div class="card-item">
                       <div class="card__header">
@@ -371,7 +371,7 @@ createApp()
                         <div class="card__data"></div>
                       </div>
                        <div class="item-details">
-                        <p class="btn btn--green btn--small takeBack-btn" item="${coll_item.collectable.name}">Riprendi</p>
+                        <p class="btn btn--green btn--small takeBack-btn" item="${coll_item.collectable.name}">Take it back</p>
                        </div>
                       <div class="card__footer">
                         <p class="card__sub-heading">${state}</p>
@@ -397,7 +397,7 @@ createApp()
 
                     user.takeBack(app.plants[item]);
 
-                    showAlert('success', `${item} ripresa da ${user.name}`,2);
+                    showAlert('success', `${item} taken back from ${user.name}`,2);
                     window.setTimeout(() => {
                         piante_prestate(user)
                     }, 1500);
