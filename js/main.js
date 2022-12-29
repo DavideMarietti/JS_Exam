@@ -42,7 +42,7 @@ createApp()
             });
         }
 
-        const appLogo = document.querySelector(".header__logo");
+        const appLogo = document.querySelector(".logo__icon");
         appLogo.addEventListener("click", (e) => {
             const home = document.querySelector(".home");
             home.style.display = 'flex';
@@ -137,6 +137,7 @@ createApp()
             profile.style.display = 'flex';
         }
 
+
         function collezione_attuale(user) {
 
             const profile = document.querySelector(".profilo");
@@ -176,7 +177,7 @@ createApp()
                       <div class="card__details">
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-plant"></use>
                           </svg>
                           <span>${coll_item.collectable.group}</span>
                         </div>
@@ -188,13 +189,13 @@ createApp()
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-sun"></use>
                           </svg>
                           <span>${coll_item.collectable.sun}</span>
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-water"></use>
                           </svg>
                           <span>${coll_item.collectable.water}</span>
                         </div>
@@ -253,7 +254,7 @@ createApp()
                       <div class="card__details">
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-plant"></use>
                           </svg>
                           <span>${coll_item.collectable.group}</span>
                         </div>
@@ -265,13 +266,13 @@ createApp()
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-sun"></use>
                           </svg>
                           <span>${coll_item.collectable.sun}</span>
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-water"></use>
                           </svg>
                           <span>${coll_item.collectable.water}</span>
                         </div>
@@ -344,7 +345,7 @@ createApp()
                       <div class="card__details">
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-plant"></use>
                           </svg>
                           <span>${coll_item.collectable.group}</span>
                         </div>
@@ -356,13 +357,13 @@ createApp()
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-sun"></use>
                           </svg>
                           <span>${coll_item.collectable.sun}</span>
                         </div>
                         <div class="card__data">
                           <svg class="card__icon">
-                            <use xlink:href="../img/icons.svg#icon-map-pin"></use>
+                            <use xlink:href="../img/icons.svg#icon-water"></use>
                           </svg>
                           <span>${coll_item.collectable.water}</span>
                         </div>

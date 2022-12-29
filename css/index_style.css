@@ -21,6 +21,25 @@ p {
     padding: 0;
 }
 
+.logo__icon {
+    height: 45px;
+    width: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    fill: #ffffff;
+    margin: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.logo__icon:hover {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    fill: #55c57a;
+
+}
+
 header {
     background-color: #444;
     grid-column-start: 2;
@@ -163,12 +182,6 @@ footer {
 
 li.evidenzia {
     background-color: yellow;
-}
-
-.header__logo img {
-    vertical-align: middle;
-    height: 4rem;
-    cursor: pointer;
 }
 
 
@@ -449,9 +462,7 @@ li.evidenzia {
     text-transform: uppercase;
     font-size: 0.8rem;
     text-decoration: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: inline-block;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -462,6 +473,8 @@ li.evidenzia {
     border: none;
     cursor: pointer;
     font-family: inherit;
+    width: 65px;
+    text-align: center;
 }
 
 .nav__el.selected {
