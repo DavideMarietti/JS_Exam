@@ -136,7 +136,7 @@ createApp()
             const profile = document.querySelector(".profilo");
             profile.style.display = 'flex';
 
-            <!--PER LORENZO: il codice js della pagina del profilo va messo qui. -->
+            // PER LORENZO: il codice js della pagina del profilo va messo qui.
         }
 
 
