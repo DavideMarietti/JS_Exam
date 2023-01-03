@@ -68,6 +68,7 @@ header {
     -ms-flex: 1;
     flex: 1;
     position: relative;
+    /*margin:50px;*/
 }
 
 .home_background{
@@ -584,6 +585,11 @@ li.evidenzia {
 /* FOOTER */
 
 .footer__nav {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     font-size: 0.65rem;
     list-style: none;
     display: -webkit-box;
