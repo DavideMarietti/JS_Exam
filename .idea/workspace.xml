@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="fiexed the footer">
+    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/homepage/1073768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/home2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/homepage/striscione-della-giungla-con-piante-tropicali-verdi-di-monstera-pothos-e-felci-concetto-natura-sfondo-naturale-o-carta-da-parati-229482063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/home1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,41 +39,12 @@
       <workItem from="1672351117151" duration="404000" />
       <workItem from="1672351554061" duration="2545000" />
     </task>
-    <task id="LOCAL-00001" summary="fiexed the homepage">
-      <created>1672743986848</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672743986848</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fiexed the footer">
-      <created>1672746618887</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1672746618887</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fiexed the homepage" />
-    <MESSAGE value="fiexed the footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="fiexed the footer" />
   </component>
 </project>
