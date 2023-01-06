@@ -136,7 +136,25 @@ createApp()
             const profile = document.querySelector(".profilo");
             profile.style.display = 'flex';
 
-            // PER LORENZO: il codice js della pagina del profilo va messo qui.
+            const list = document.querySelector(".profile-schedule");
+            list.innerHTML = "";
+
+            const template = `
+                        <div class="profile-part1">
+                          <img src='../img/users/${user.img}' class="user-img">
+                        </div>
+                        <div class="profile-part2">
+                          <p class="profile-name">${user.name} ${user.surname}</p>
+                          <p class="profile-age">Age : ${user.age} years</p>
+                          <p class="profile-job">Job : ${user.job}</p>
+                        </div>
+                        <div class="profile-part3">
+                            <p class="profile-sentence">Favorite quote : "${user.sentence}"</p>
+                        </div>
+
+                    </div>`
+
+            list.insertAdjacentHTML("beforeend", template);
         }
 
 

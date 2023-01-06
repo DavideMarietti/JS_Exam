@@ -173,6 +173,43 @@ header {
     position: relative;
 }
 
+.profile-schedule {
+    border-left: 15px;
+}
+
+.profile-part1 {
+
+}
+
+.profile-part2 {
+
+}
+
+.profile-part3 {
+
+}
+
+.profile-name {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.profile-age {
+
+}
+
+.profile-sentence {
+    font-style: italic;
+}
+
+.user-img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
 /* Removing scroll bar */
 .collection::-webkit-scrollbar {
     display: none;
@@ -196,9 +233,38 @@ footer {
     grid-column-end: five;
     grid-row-start: 4;
     grid-row-end: 5;
+}
+
+.footer_1 {
+    display: inline-block;
+    block-size: 50%;
+    padding: 0.4rem;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.footer_2 {
+    display: inline-block;
+    block-size: 50%;
     padding: 0.4rem;
     text-align: right;
     font-size: 0.6rem;
+}
+
+.social__icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.social__icon:hover {
+    cursor: pointer;
+}
+
+.footer_1 p {
+    display: inline-block;
 }
 
 /*
