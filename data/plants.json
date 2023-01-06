@@ -88,5 +88,50 @@
     "sun": "sun",
     "water": "10 ml per week",
     "discovery": "since the dawn of time"
+  },
+  {
+    "name": "Sansevieria",
+    "description": "Sansevieria is a historically recognized genus of flowering plants, native to Africa, notably Madagascar, and southern Asia, now included in the genus Dracaena on the basis of molecular phylogenetic studies.",
+    "img": "Sansevieria.jpg",
+    "origin": "Asia - South Africa",
+    "group": "Evergreen",
+    "meaning": "Force, resistance and health",
+    "climate": "Subtropic and desertic",
+    "bloom": false,
+    "handle": "easy",
+    "rarity": "2",
+    "sun": "Indirect sun",
+    "water": "50ml every 2 week",
+    "discovery": "since the dawn of time"
+  },
+  {
+    "name": "Pothos",
+    "description": "Among indoor plants, pothos is a longtime fan favorite for a few reasons. It’s super easy to grow, tolerating a wide range of sunlight, moisture, temperature, and humidity. It works as a trailing plant, climber, or mass of mounding foliage, depending on the way it is trained. And, there are lots of colorful pothos varieties from which to choose, making it a fun plant for collectors.",
+    "img": "Pothos.jpg",
+    "origin": "Southeast Asia",
+    "group": "Evergreen - climbing",
+    "meaning": "Perennial desire",
+    "climate": "Tropical forest",
+    "bloom": false,
+    "handle": "medium",
+    "rarity": "2",
+    "sun": "Medium to bright",
+    "water": "low",
+    "discovery": "since the dawn of time"
+  },
+  {
+    "name": "Orchid",
+    "description": "Orchids are some of the most commonly grown houseplants. Provided they have proper growing conditions, it isn’t difficult to learn how to take care of orchid plants. Keep reading to get some indoor orchid care tips.",
+    "img": "Orchid.jpg",
+    "origin": "Asia - Middle and South America",
+    "group": "Perennial",
+    "meaning": "Harmony",
+    "climate": "Tropical forest",
+    "bloom": false,
+    "handle": "difficult",
+    "rarity": "2",
+    "sun": "Indirect sun",
+    "water": "wet roots every 2 weeks",
+    "discovery": "since the dawn of time"
   }
 ]

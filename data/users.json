@@ -2,35 +2,50 @@
   {
     "name": "Alice",
     "surname": "Corvetto",
+    "age": 22,
+    "sentence": "La prima frase di un libro è come il primo sguardo tra due persone che non si conoscono - Nicolas Barreau",
     "collector": true,
-    "img": "default.jpg",
+    "img": "Alice Corvetto.jpg",
+    "job": "Influencer",
     "items": [
       "Cephalotus follicularis",
       "Nepenthes Lowii",
       "Rafflesiaceae",
-      "Caper"
+      "Caper",
+      "Sansevieria"
     ]
   },
   {
     "name": "Matteo",
     "surname": "De Angeli",
+    "age": 18,
+    "sentence": "Ogni seme che abbandoniamo nel mare racchiude una pianta che verrà depositata in una terra lontana. Ma se manca il sole farà fatica a crescere e si perderà. Anche gli esseri umani racchiudono in sé una potenza misteriosa, ma c’è bisogno di quel raggio per emergere. - Romano Battaglia",
     "collector": true,
-    "img": "default.jpg",
+    "img": "Matteo De Angeli.jpg",
+    "job": "Musician",
     "items": [
       "Drosera capensis",
-      "Venus Flytrap"
+      "Venus Flytrap",
+      "Pothos",
+      "Orchid"
     ]
   },
   {
     "name": "Celia",
     "surname": "Gioia",
-    "img": "default.jpg",
+    "age": 35,
+    "sentence": "Leggere libri è il gioco più bello che l’umanità abbia inventato - Wisława Szymborska",
+    "img": "Celia Gioia.jpg",
+    "job": "Artist",
     "collector": false
   },
   {
     "name": "Daniele",
     "surname": "Centrale",
-    "img": "default.jpg",
+    "age": 41,
+    "sentence": "Anche se poco appariscente, o poco felice, una pianta regalata da qualcuno al quale si vuol bene diventa in un giardino qualcosa di ben differente e assume tutto un altro valore: quando poi la pianta è bella, cresciuta e appagata racchiude in sé il fascino e la malia delle atmosfere positive. - Paolo Pejrone",
+    "img": "Daniele Centrale.jpg",
+    "job": "Entrepreneur",
     "collector": false
   }
 ]
