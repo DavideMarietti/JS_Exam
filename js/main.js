@@ -8,7 +8,7 @@ const hideAlert = () => {
     if (el) el.parentElement.removeChild(el);
 };
 
-const showAlert = (type, msg, time= 5) => {
+const showAlert = (type, msg, time = 5) => {
     hideAlert();
     const markup = `<div class="alert alert--${type}">${msg}</div>`;
     document.querySelector('.collection').insertAdjacentHTML('afterbegin', markup);
@@ -46,6 +46,8 @@ createApp()
         appLogo.addEventListener("click", (e) => {
             const home = document.querySelector(".home");
             home.style.display = 'flex';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'none';
             const main = document.querySelector(".collection");
             main.style.display = 'none';
             const nav = document.querySelector(".second-nav");
@@ -59,6 +61,10 @@ createApp()
         function init_profile(user) {
             const home = document.querySelector(".home");
             home.style.display = 'none';
+            const profile = document.querySelector(".profilo");
+            profile.style.display = 'flex';
+            const main = document.querySelector(".collection");
+            main.style.display = 'none';
             const nav = document.querySelector(".second-nav");
             nav.style.display = 'flex';
 
@@ -139,20 +145,22 @@ createApp()
             const list = document.querySelector(".profile-schedule");
             list.innerHTML = "";
 
+            console.log(user)
             const template = `
-                        <div class="profile-part1">
-                          <img src='../img/users/${user.img}' class="user-img">
-                        </div>
-                        <div class="profile-part2">
-                          <p class="profile-name">${user.name} ${user.surname}</p>
-                          <p class="profile-age">Age : ${user.age} years</p>
-                          <p class="profile-job">Job : ${user.job}</p>
+                        <div class="profile-wrapper">
+                            <div class="profile-part1">
+                              <img src='../img/users/${user.img}' class="user-img">
+                            </div>
+                            <div class="profile-part2">
+                              <h2 class="profile-name heading-secondary">${user.name} ${user.surname}</h2>
+                              <p class="profile-age"><strong>Age:</strong> ${user.age} years</p>
+                              <p class="profile-age"><strong>Job:</strong> ${user.job}</p>
+                               <p class="profile-age"><strong>Collector:</strong> ${user.collector}</p>
+                            </div>
                         </div>
                         <div class="profile-part3">
-                            <p class="profile-sentence">Favorite quote : "${user.sentence}"</p>
-                        </div>
-
-                    </div>`
+                            <p class="profile-sentence"><strong>Favorite quote:</strong> "${user.sentence}"</p>
+                        </div>`
 
             list.insertAdjacentHTML("beforeend", template);
         }
@@ -329,7 +337,7 @@ createApp()
 
                     itemOwner.loan(app.plants[item], user);
 
-                    showAlert('success', `${item} borrowed from ${user.name}`,2);
+                    showAlert('success', `${item} borrowed from ${user.name}`, 2);
                     window.setTimeout(() => {
                         piante_disponibili(user)
                     }, 1500);
@@ -417,7 +425,7 @@ createApp()
 
                     user.takeBack(app.plants[item]);
 
-                    showAlert('success', `${item} taken back from ${user.name}`,2);
+                    showAlert('success', `${item} taken back from ${user.name}`, 2);
                     window.setTimeout(() => {
                         piante_prestate(user)
                     }, 1500);

@@ -47,12 +47,12 @@ async function initUsers(app) {
         for (let user of users) {
             // If the user is a collector..., else...
             if (user.collector) {
-                app.users[user.name] = new Collector(user.name, user.surname, user.age, user.sentence, user.img, user.job);
+                app.users[user.name] = new Collector(user.name, user.surname, user.age, user.sentence, user.img, user.job, user.collector);
                 for (let plant of user.items) {
                     app.users[user.name].collect(app.plants[plant]); // assign items to the user's collection
                 }
             } else {
-                app.users[user.name] = new User(user.name, user.surname, user.age, user.sentence, user.img, user.job);
+                app.users[user.name] = new User(user.name, user.surname, user.age, user.sentence, user.img, user.job, user.collector);
             }
         }
     } catch (err) {

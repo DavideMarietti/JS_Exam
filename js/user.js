@@ -30,14 +30,15 @@ export class User {
     //Constructor
     //________________________________________________________________________________________________________________//
 
-    constructor(name, surname, age, sentence, img, job) {
+    constructor(name, surname, age, sentence, img, job, collector) {
         this._name = name;
         this._surname = surname;
         this._identifier = User.setId();
         this.age = age;
         this.sentence = sentence;
         this.img = img;
-        this.job = job
+        this.job = job;
+        this.collector = collector;
         this._collection = []; // Array of CollectionItem objs
 
         // Once a new User obj is created, it is added to the list of all the Users objs
@@ -98,8 +99,8 @@ export class User {
 // A Collector obj represents a person that own a Collection
 export class Collector extends User {
 
-    constructor(name, surname, age, sentence, img, job) {
-        super(name, surname, age, sentence, img, job)
+    constructor(name, surname, age, sentence, img, job, collector) {
+        super(name, surname, age, sentence, img, job, collector)
     }
 
     // Calculated and Read-only attributes
