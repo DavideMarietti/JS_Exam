@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="">
+    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="Last commit with final changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/load-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/load-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/plants.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/plants.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,16 @@
       <updated>1672351114726</updated>
       <workItem from="1672351117151" duration="404000" />
       <workItem from="1672351554061" duration="2545000" />
+      <workItem from="1673176188906" duration="1299000" />
     </task>
+    <task id="LOCAL-00001" summary="Last commit with final changes.">
+      <created>1673087021169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673087021169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,5 +63,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Last commit with final changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Last commit with final changes." />
   </component>
 </project>
