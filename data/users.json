@@ -8,8 +8,11 @@
     "img": "Alice Corvetto.jpg",
     "job": "Influencer",
     "items": [
+      "Hydrangea",
       "Cephalotus follicularis",
+      "Anthurium",
       "Nepenthes Lowii",
+      "Bougainvillea",
       "Rafflesiaceae",
       "Caper",
       "Sansevieria"
@@ -24,10 +27,14 @@
     "img": "Matteo De Angeli.jpg",
     "job": "Musician",
     "items": [
+      "Hibiscus",
       "Drosera capensis",
+      "Lavandula",
+      "Cactus",
       "Venus Flytrap",
       "Pothos",
-      "Orchid"
+      "Orchid",
+      "Philodendron"
     ]
   },
   {

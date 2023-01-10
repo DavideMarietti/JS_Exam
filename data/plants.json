@@ -15,6 +15,21 @@
     "discovery": 1801
   },
   {
+    "name": "Anthurium",
+    "description": "Anthurium is a genus of herbs often growing as epiphytes on other plants. Some are terrestrial. The leaves are often clustered and are variable in shape. The inflorescence bears small flowers which are perfect, containing male and female structures. The flowers are contained in close together spirals on the spadix. The spadix is often elongated into a spike shape, but it can be globe-shaped or club-shaped.",
+    "img": "Anthurium.jpg",
+    "origin": "Amazon Forest",
+    "group": "Araceae",
+    "meaning": "Perennial desire",
+    "climate": "Tropical forest",
+    "bloom": false,
+    "handle": "medium",
+    "rarity": "2",
+    "sun": "medium to shadow",
+    "water": "200 ml per week",
+    "discovery": "since the dawn of time"
+  },
+  {
     "name": "Drosera capensis",
     "description": "Drosera capensis produces strap-like leaves, up to 3.5 centimetres long (not including the petiole) and 0.5 centimetres wide, which, as in all sundews, are covered in brightly coloured tentacles which secrete a sticky mucilage that traps arthropods. It is a perennial, herbaceous plant that forms a rosette with a diameter of 18cm and is characterized by numerous, reddish glandular erosions on 7 cm long and 5 mm wide, elongated leaves. The plant flowers in summer (December and January in its native habitat in South Africa) with up to 50 pale-violet, more than 2 cm large flowers borne on up to 35 cm high inflorescences.",
     "img": "DroseraWithFly.jpg",
@@ -28,6 +43,21 @@
     "sun": "low exposure",
     "water": "150 ml per week",
     "discovery": 1757
+  },
+  {
+    "name": "Bougainvillea",
+    "description": "The species grow 1 to 12 metres (3 to 39 ft) tall, scrambling over other plants with their spiky thorns. They are evergreen where rainfall occurs all year, or deciduous if there is a dry season. The leaves are alternate, simple ovate-acuminate, 4–13 cm long and 2–6 cm broad. The actual flower of the plant is small and generally white, but each cluster of three flowers is surrounded by three or six bracts with the bright colours associated with the plant, including pink, magenta, purple, red, orange, white, or yellow.",
+    "img": "Buganvillea.jpg",
+    "origin": "Mediterranean Basin",
+    "group": "Nyctaginaceae",
+    "meaning": "Perennial desire",
+    "climate": "Tropical forest",
+    "bloom": false,
+    "handle": "medium",
+    "rarity": "2",
+    "sun": "Sun",
+    "water": "600 ml per week",
+    "discovery": "since the dawn of time"
   },
   {
     "name": "Venus Flytrap",
@@ -45,6 +75,21 @@
     "discovery": 1759
   },
   {
+    "name": "Cactus",
+    "description": "Cactus spines are produced from specialized structures called areoles, a kind of highly reduced branch. Areoles are an identifying feature of cacti. As well as spines, areoles give rise to flowers, which are usually tubular and multipetaled. Many cacti have short growing seasons and long dormancies and are able to react quickly to any rainfall, helped by an extensive but relatively shallow root system that quickly absorbs any water reaching the ground surface.",
+    "img": "Cactus.jpg",
+    "origin": "Mexico, Arizona",
+    "group": "Cactaceae",
+    "meaning": "Perennial desire",
+    "climate": "Tropical forest",
+    "bloom": false,
+    "handle": "medium",
+    "rarity": "2",
+    "sun": "Desert",
+    "water": "50 ml per week",
+    "discovery": "since the dawn of time"
+  },
+  {
     "name": "Nepenthes Lowii",
     "description": "Nepenthes Lowii is a climbing plant. The stem may attain a length of more than 10 m and is up to 20 mm in diameter. Internodes are cylindrical in cross section and up to 8 cm long. The leaves of this species are coriaceous in texture. The lamina or leaf blade is petiolate, oblong-lanceolate in shape, and up to 30 cm long by 9 cm wide. It has a rounded apex and an abruptly contracted base. The petiole is canaliculate and up to 14 cm long. It forms a flat sheath that clasps the stem for two-thirds to four-fifths of its circumference.",
     "img": "Nepenthes_lowii.jpg",
@@ -58,6 +103,36 @@
     "sun": "low exposure",
     "water": "100 ml per week",
     "discovery": 1862
+  },
+  {
+    "name": "Philodendron",
+    "description": "Compared to other genera of the family Araceae, philodendrons have an extremely diverse array of growth methods. The habits of growth can be epiphytic, hemiepiphytic, or rarely terrestrial. Others can show a combination of these growth habits depending on the environment. Hemiepiphytic philodendrons can be classified into two types: primary and secondary hemiepiphytes. A primary hemiepiphytic philodendron starts life high up in the canopy where the seed initially sprouts.",
+    "img": "Filodendro.jpg",
+    "origin": "Borneo, Brunei",
+    "group": "Araceae",
+    "meaning": "I am like a saxophone, but more dangerous",
+    "climate": "Pluvial",
+    "bloom": false,
+    "handle": "difficult",
+    "rarity": "3",
+    "sun": "medium exposure",
+    "water": "150 ml per week",
+    "discovery": 1862
+  },
+  {
+    "name": "Hibiscus",
+    "description": "The leaves are alternate, ovate to lanceolate, often with a toothed or lobed margin (dentate). The flowers are large, conspicuous, trumpet-shaped, with five or more petals, colour from white to pink, red, blue, orange, peach, yellow or purple, and from 4–18cm broad.",
+    "img": "Ibisco.jpg",
+    "origin": "Hawaii, Polinisia",
+    "group": "Malvacee",
+    "meaning": "I produce the biggest flower in the world",
+    "climate": "Temperate forest",
+    "bloom": true,
+    "handle": "super difficult",
+    "rarity": "5",
+    "sun": "sun",
+    "water": "250 ml per week",
+    "discovery": 1913
   },
   {
     "name": "Rafflesiaceae",
@@ -100,8 +175,38 @@
     "bloom": false,
     "handle": "easy",
     "rarity": "2",
-    "sun": "Indirect sun",
+    "sun": "indirect sun",
     "water": "50ml every 2 week",
+    "discovery": "since the dawn of time"
+  },
+  {
+    "name": "Lavandula",
+    "description": "The genus includes annual or short-lived herbaceous perennial plants, and shrub-like perennials, subshrubs or small shrubs. Leaf shape is diverse across the genus. They are simple in some commonly cultivated species; in other species, they are pinnately toothed, or pinnate, sometimes multiple pinnate and dissected. In most species, the leaves are covered in fine hairs or indumentum, which normally contain essential oils.",
+    "img": "Lavanda.jpg",
+    "origin": "France, Europe",
+    "group": "Lamiaceae",
+    "meaning": "Force, resistance and health",
+    "climate": "Subtropic and desertic",
+    "bloom": false,
+    "handle": "easy",
+    "rarity": "2",
+    "sun": "sun",
+    "water": "350ml per week",
+    "discovery": "since the dawn of time"
+  },
+  {
+    "name": "Hydrangea",
+    "description": "Il genere comprende diverse specie di piante legnose arbustive. La particolarità di questa pianta sono i fiori, riuniti in infiorescenze più o meno sferiche, dette corimbi o pannocchie, che portano fiori per lo più sterili, soprattutto quelli esterni, per cui sono sostituiti dai sepali, grandi e petaliformi, mentre le altre parti fiorali sono abortite. ",
+    "img": "Ortensia.jpg",
+    "origin": "China and Asia",
+    "group": "Hydrangeaceae",
+    "meaning": "Force, resistance and health",
+    "climate": "Subtropic and desertic",
+    "bloom": false,
+    "handle": "easy",
+    "rarity": "2",
+    "sun": "sun",
+    "water": "300ml per week",
     "discovery": "since the dawn of time"
   },
   {
@@ -115,7 +220,7 @@
     "bloom": false,
     "handle": "medium",
     "rarity": "2",
-    "sun": "Medium to bright",
+    "sun": "medium to bright",
     "water": "low",
     "discovery": "since the dawn of time"
   },
@@ -123,15 +228,15 @@
     "name": "Orchid",
     "description": "Orchids are some of the most commonly grown houseplants. Provided they have proper growing conditions, it isn’t difficult to learn how to take care of orchid plants. Keep reading to get some indoor orchid care tips.",
     "img": "Orchid.jpg",
-    "origin": "South America",
+    "origin": "South-east America",
     "group": "Perennial",
     "meaning": "Harmony",
     "climate": "Tropical forest",
     "bloom": false,
     "handle": "difficult",
     "rarity": "2",
-    "sun": "Indirect sun",
-    "water": "wet roots every 2 weeks",
+    "sun": "indirect sun",
+    "water": "wet roots every week",
     "discovery": "since the dawn of time"
   }
 ]
