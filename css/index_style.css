@@ -232,6 +232,10 @@ margin-bottom: 0.5em;
     display: none;
 }
 
+.nCollector {
+    visibility: hidden;
+}
+
 nav {
     background-color: #f7f7f7;
     grid-column-start: 2;

@@ -78,6 +78,11 @@ createApp()
                 } else {
                     navButton[i].classList.remove("selected")
                 }
+                if(!user.collector){
+                    navButton[3].classList.add("nCollector");
+                }else{
+                    navButton[3].classList.remove("nCollector");
+                }
                 i++
             }
 
