@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="Final commit!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="e2a951ae-17d0-4e18-8bb5-3c911883b7f7" name="Changes" comment="Added &quot;if&quot; that remove &quot;plant on loan&quot; for user that are not collector" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +41,7 @@
       <workItem from="1673190594536" duration="59000" />
       <workItem from="1673383352154" duration="603000" />
       <workItem from="1673387607193" duration="2424000" />
-      <workItem from="1673475061529" duration="764000" />
+      <workItem from="1673475061529" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Last commit with final changes.">
       <created>1673087021169</created>
@@ -75,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673178359769</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added &quot;if&quot; that remove &quot;plant on loan&quot; for user that are not collector">
+      <created>1673476123692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673476123692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Last commit with final changes." />
     <MESSAGE value="Final commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit!" />
+    <MESSAGE value="Added &quot;if&quot; that remove &quot;plant on loan&quot; for user that are not collector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;if&quot; that remove &quot;plant on loan&quot; for user that are not collector" />
   </component>
 </project>
